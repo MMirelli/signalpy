@@ -1,0 +1,18 @@
+rabbit:
+     container_name: rmq-broker
+     hostname: broker
+     image: rabbitmq:3-management
+     volumes:
+       - ./certs:/home/certs
+     environment:
+       - RABBITMQ_DEFAULT_USER=$RMQ_USER
+       - RABBITMQ_DEFAULT_PASS=$RMQ_PSW
+     env_file:
+       - ./broker.env
+     ports:
+        - "5671:5671" # TLS
+        - "5672:5672" # TCP
+        - "15671:15671" # HTTPS
+        - "15672:15672" # HTTP
+
+
