@@ -41,6 +41,15 @@ Alice and bob scripts provide with a very basic CLI for sending/receiving messag
 
 ----------------
 
+
+## On successful build
+
+![image](./img/parties_out.jpg)
+
+![image](./img/ttp_out.jpg)
+
+----------------
+
 ## Next steps
 
 * ~~Sketch documentation of the transport~~;
@@ -52,5 +61,5 @@ Alice and bob scripts provide with a very basic CLI for sending/receiving messag
   * ~~Asymmetric Ratchet~~;
   * ~~Symmetric Ratchet~~; 
   
-* Improved documentation and comments. [`in_progress`]
-
+* ~~Improved documentation and comments.~~
+* Successful build screens. [in progress]
