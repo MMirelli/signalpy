@@ -1,7 +1,5 @@
 # README
 
-> Work in progress 
-
 The way `simple_handshake_chaining.py` operates is illustrated in the following image.
 
 ![image1](./img/simple_handshake_chaining.png "Simple handshake protocol")
@@ -44,9 +42,7 @@ Alice and bob scripts provide with a very basic CLI for sending/receiving messag
 
 ## On successful build
 
-![image](./img/parties_out.jpg)
-
-![image](./img/ttp_out.jpg)
+![image](./img/demo.gif)
 
 ----------------
 
@@ -62,4 +58,4 @@ Alice and bob scripts provide with a very basic CLI for sending/receiving messag
   * ~~Symmetric Ratchet~~; 
   
 * ~~Improved documentation and comments.~~
-* Successful build screens. [in progress]
+* ~~Successful build screens.~~
